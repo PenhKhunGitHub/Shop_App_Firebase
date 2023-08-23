@@ -39,3 +39,4 @@ class ProductModel{
       product_price = doc['productprice'],
       description= doc['description'];
 }
+

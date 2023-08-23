@@ -32,7 +32,7 @@ class _StorageScreenState extends State<StorageScreen> {
     super.initState();
     getImageUrl();
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

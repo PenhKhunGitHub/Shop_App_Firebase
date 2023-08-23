@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 
 import '../model/product_model.dart';
-
 class Controller extends GetxController{
   var count = 0.obs;
   var total = 0.obs;

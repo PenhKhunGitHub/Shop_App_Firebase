@@ -27,7 +27,6 @@ class UserModel{
       // 'product_price' : product_price
     };
   }
-  
   //Function Convert to Object
   UserModel.fromdocument(DocumentSnapshot doc)
     : profile = doc['profile'],

@@ -16,7 +16,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final passController    = TextEditingController();
   final compassController = TextEditingController();
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

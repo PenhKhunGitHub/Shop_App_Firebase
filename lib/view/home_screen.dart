@@ -212,7 +212,7 @@ class _HomeScreenState extends State<HomeScreen> {
       )
     );
   }
-  
+
   Widget drawerlist(){
     return Padding(
       padding: const EdgeInsets.only(top: 15),

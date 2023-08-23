@@ -5,7 +5,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:shop_app/view/cloud_firestor.dart';
 import 'package:shop_app/view/home_screen.dart';
 import 'package:shop_app/view/signin_screen.dart';
-import 'package:shop_app/view/storage_screen.dart';
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
    await Firebase.initializeApp();  
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 127, 53, 255)),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const SignInScreen(),
     );
   }
 }
@@ -76,3 +76,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
