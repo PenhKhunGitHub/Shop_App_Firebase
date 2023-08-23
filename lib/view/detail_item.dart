@@ -203,7 +203,7 @@ class _DetailProductState extends State<DetailProduct> {
                     ),
                   ),
                 ),
-                
+            
                 Expanded(
                   flex: 3,
                   child: Column(

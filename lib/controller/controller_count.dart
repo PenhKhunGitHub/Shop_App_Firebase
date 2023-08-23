@@ -18,7 +18,4 @@ class Controller extends GetxController{
     total += pro.product_price * count.value; 
     update();
   }
- 
-
-  
 }

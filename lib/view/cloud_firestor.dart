@@ -133,7 +133,6 @@ class _CloudFireStoreState extends State<CloudFireStore> {
           ),
         );
         },
-        
       ),  
     );
   }
